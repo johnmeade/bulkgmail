@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Usage
 ---
 
-* Obtain a `credentials.json` file from the [gmail API quickstart](https://developers.google.com/gmail/api/quickstart/python) and place it in the root of the project.
+* Obtain a `credentials.json` file from the [gmail API quickstart](https://developers.google.com/gmail/api/quickstart/python) by clicking the "Enable the GMail API" button, and place it in the root of the project.
 
 * Create "body.txt" and "subject.txt" files in the "templates" folder. These files define the body and subject of the emails that will be sent, and they will be rendered with the Jinja templating engine. Example body:
 
