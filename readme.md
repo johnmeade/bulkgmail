@@ -16,7 +16,7 @@ Usage
 
 * Obtain a `credentials.json` file from the [gmail API quickstart](https://developers.google.com/gmail/api/quickstart/python) by clicking the "Enable the GMail API" button, and place it in the root of the project.
 
-* Create "body.txt" and "subject.txt" files in the "templates" folder. These files define the body and subject of the emails that will be sent, and they will be rendered with the Jinja templating engine. Example body:
+* Create `body.txt` and `subject.txt` files in the `bulkgmail/templates` folder. These files define the body and subject of the emails that will be sent, and they will be rendered with the Jinja templating engine. Example body:
 
         Hi {{name}}, what's up?
 
@@ -29,4 +29,4 @@ Usage
 
         python -m bulkgmail --sender you@gmail.com --data data.csv
 
-For an example of building a mass email campaign, where each email has a unique code and a URL, see the "bulkgmail/examples" folder.
+For an example of building a mass email campaign, where each email has a unique code and a URL, see the `bulkgmail/examples` folder.
