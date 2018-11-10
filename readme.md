@@ -29,4 +29,4 @@ Usage
 
         python -m bulkgmail --sender you@gmail.com --data data.csv
 
-For an example of building a mass email campaign, where each email has a unique code and a URL, see the "exmaples" folder.
+For an example of building a mass email campaign, where each email has a unique code and a URL, see the "bulkgmail/examples" folder.
