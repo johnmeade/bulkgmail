@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Usage
 ---
 
-For an example of building a mass email campaign, where each email has a unique code and a URL, see the "exmaples" folder.
+* Obtain a `credentials.json` file from the [gmail API quickstart](https://developers.google.com/gmail/api/quickstart/python) and place it in the root of the project.
 
 * Create "body.txt" and "subject.txt" files in the "templates" folder. These files define the body and subject of the emails that will be sent, and they will be rendered with the Jinja templating engine. Example body:
 
@@ -28,3 +28,5 @@ For an example of building a mass email campaign, where each email has a unique 
 * Run like so:
 
         python -m bulkgmail --sender you@gmail.com --data data.csv
+
+For an example of building a mass email campaign, where each email has a unique code and a URL, see the "exmaples" folder.
